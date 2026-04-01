@@ -1,0 +1,96 @@
+name: rails
+owner: agentic-stacks
+version: 0.1.0
+description: >
+  Ruby on Rails full-stack and API-only web application framework.
+  Covers Rails 7.x and 8.x — from app creation through models, controllers,
+  views, Hotwire, testing, security, performance, and troubleshooting.
+
+target:
+  software: rails
+  versions:
+    - "7.x"
+    - "8.x"
+
+skills:
+  - name: bootstrap
+    entry: skills/foundation/bootstrap
+    description: Install Ruby, Rails, Bundler, Node — from zero to ready-to-develop
+  - name: concepts
+    entry: skills/foundation/concepts
+    description: Rails philosophy, MVC pattern, convention over configuration
+  - name: app-structure
+    entry: skills/foundation/app-structure
+    description: Directory layout, autoloading with Zeitwerk, initializers
+  - name: configuration
+    entry: skills/foundation/configuration
+    description: Environments, credentials, secrets, database.yml
+  - name: models
+    entry: skills/develop/models
+    description: Active Record — migrations, associations, validations, queries, multi-database
+  - name: controllers
+    entry: skills/develop/controllers
+    description: Routing, actions, filters, API-only mode, serialization, versioning
+  - name: views
+    entry: skills/develop/views
+    description: ERB, layouts, partials, Hotwire, Turbo, Stimulus, Action Cable
+  - name: assets
+    entry: skills/develop/assets
+    description: Propshaft, import maps, jsbundling, cssbundling
+  - name: services
+    entry: skills/develop/services
+    description: Background jobs, caching, Action Mailer, Active Storage
+  - name: testing
+    entry: skills/develop/testing
+    description: Minitest, RSpec, system tests, factories, fixtures
+  - name: advanced
+    entry: skills/develop/advanced
+    description: Rails engines, internationalization, multi-tenancy
+  - name: setup
+    entry: skills/operations/setup
+    description: New app creation, generators, Bundler, dependency management
+  - name: upgrades
+    entry: skills/operations/upgrades
+    description: Rails version upgrades, deprecation handling, rails app:update
+  - name: performance
+    entry: skills/operations/performance
+    description: Profiling, N+1 detection, caching strategy, database tuning
+  - name: security
+    entry: skills/operations/security
+    description: Authentication, authorization, OWASP hardening, CSP, CORS
+  - name: logging
+    entry: skills/operations/logging
+    description: Instrumentation, structured logging, error tracking
+  - name: diagnose
+    entry: skills/diagnose
+    description: Troubleshooting common errors, boot failures, request errors, performance
+  - name: known-issues
+    entry: skills/reference/known-issues
+    description: Version-specific bugs and workarounds for Rails 7.x and 8.x
+  - name: compatibility
+    entry: skills/reference
+    description: Ruby/Rails version matrix, gem compatibility
+  - name: decision-guides
+    entry: skills/reference/decision-guides
+    description: Asset pipeline, background jobs, auth, and testing framework comparisons
+
+project:
+  structure:
+    - Gemfile
+    - config/
+    - app/
+    - db/
+    - test/ or spec/
+
+requires:
+  tools:
+    - name: ruby
+      description: Ruby interpreter (3.1+ for Rails 7, 3.2+ for Rails 8)
+    - name: rails
+      description: Rails CLI for app generation, generators, and management
+    - name: bundler
+      description: Ruby dependency management
+    - name: node
+      description: Required only if using jsbundling or cssbundling
+
+depends_on: []
