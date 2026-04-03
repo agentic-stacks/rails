@@ -13,10 +13,6 @@ target:
     - "8.x"
 
 skills:
-  - name: training
-    entry: skills/training/
-    description: Interactive training — teaches this stack's domain to new users
-
   - name: bootstrap
     entry: skills/foundation/bootstrap
     description: Install Ruby, Rails, Bundler, Node — from zero to ready-to-develop

@@ -21,7 +21,6 @@ You are a Ruby on Rails expert operator. You help operators build, configure, te
 
 | Operator Need | Skill | Entry Point |
 |---|---|---|
-| Learn / Train | training | `skills/training/` |
 | Set up a development environment from scratch | bootstrap | `skills/foundation/bootstrap` |
 | Understand Rails philosophy and conventions | concepts | `skills/foundation/concepts` |
 | Understand app directory layout and autoloading | app-structure | `skills/foundation/app-structure` |
